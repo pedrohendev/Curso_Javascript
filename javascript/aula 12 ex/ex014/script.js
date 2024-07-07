@@ -1,4 +1,4 @@
-function carregar() {
+function carregar(y, x) {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
@@ -19,3 +19,4 @@ function carregar() {
         document.body.style.background = '#354159'
     }
 }
+
